@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spinner</title>
+    <link href="spinner.css" type="text/css" rel="stylesheet" />
+    <script src="tetraminos.js"></script>
+    <script src="spinner.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Table Tetris</h1>
+        
+        <div id="board">
+        </div>
+        
+        <div id="sidebar">
+            <div id="deck">
+                <p>Next: </p>
+                <div id="smallboard"></div>
+            </div>
+            <div id="scoreboard">
+                <table>
+                    <tr> <th>Score:</th> <td id="pointbox">0</td> </tr>
+                    <tr> <th>Lines:</th> <td id="linebox">0</td> </tr>
+                    <tr> <th>Speed:</th> <td id="speedbox">0</td> </tr>
+                    <tr></tr>
+                </table>
+            </div>
+            
+            <div id="controls">
+                <table>
+                <caption>Controls:</caption>
+                <tr> <th>Q</th> <td>Rotate Left</td> </tr>
+                <tr> <th>W</th> <td>Flip</td> </tr>
+                <tr> <th>E</th> <td>Rotate Right</td> </tr>
+                <tr> <th>A</th> <td>Move Left</td> </tr>
+                <tr> <th>S</th> <td>Move Down</td> </tr>
+                <tr> <th>D</th> <td>Move Right</td> </tr>
+                <tr> <th>SPACE</th> <td>Pause Game</td> </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <div id="overlay">
+    </div>
+    
+    <div id="gameover">
+        <h1>Game Over</h1>
+        <p>Refresh browser to play again</p>
+    </div>
+    
+    <div id="pause">
+        <h1>Game Paused</h1>
+        <p>Press SPACE to continue</p>
+    </div>
+
+</body>
+</html>
